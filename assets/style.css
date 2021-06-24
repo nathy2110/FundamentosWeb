@@ -1,0 +1,166 @@
+/*Estilos da página index2.html*/
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+.container{
+    display:flex;
+  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}   
+
+#menu li{
+    display: inline;
+    padding: 30px;
+    
+}
+
+#menu li a{
+text-decoration:none;
+color:black;
+font-size: 20px;
+}
+
+#menu li a:hover{
+color: hotpink;
+}
+h1 {
+    text-shadow: 2px 2px 5px hotpink;
+  }
+  h2 {
+    text-shadow: 2px 2px 5px hotpink;
+  }
+  .p30{
+      padding: 30px;
+  }
+  .br-50{
+      border-radius: 50%;
+  }
+  .br-30{
+    border-radius: 5%;
+    width: 225.25px;
+    
+}
+  
+/*Estilos da página contato2.html*/
+#msg {
+    text-shadow: 2px 2px 5px hotpink;
+  }
+  div.gallery {
+    margin: 5px;
+    border: none;
+    float: initial;
+    width: 5000px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  #p1 {background-color: rgba(230, 197, 197, 0.438);
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color:lightcoral;
+    color: lightcoral;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+   
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .column1 {
+    float: center;
+    width: 33.33%;
+   
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+.column2 {
+  float: left;
+  width: 33.33%;
+ 
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column{
+      width: 100%;
+    }
+
+}
+.left{
+    text-align: left;
+}
+
+ .p5 {
+    font-family:  'Courier New', Courier, monospace , cursive;
+  }
+  .p4 {
+    font-family:  Arial, Helvetica, sans-serif ;
+  }
+ .tm-social{
+     width: 50px;
+     height: 50px;
+ }
+ .mb-50{
+     margin-bottom: 50 px;
+ }
+ .ml-50{
+     margin-left: 51px;
+ }
+  
